@@ -132,6 +132,10 @@ function imprimirEquipos(){
 let nombresInstructores = [];
 let identificacionInstructores = [];
 
+
+
+
+
 function addInstructor(){
 
 
