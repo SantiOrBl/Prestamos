@@ -159,6 +159,13 @@ function addInstructor(){
 
         identificacionInstructores.push(identificacion);
         nombresInstructores.push(nombre);
+
+        Swal.fire({
+            icon: "success",
+            title: "Hecho...",
+            text: "Se ha registrado correctamente un instructor",
+          });
+          
         }else{
             Swal.fire({
                 icon: "warning",
@@ -170,11 +177,7 @@ function addInstructor(){
 
     imprimirInstructores()
     
-    Swal.fire({
-        icon: "success",
-        title: "Hecho...",
-        text: "Se ha registrado correctamente un instructor",
-      });
+
 }
     inputID.value = '';
     inputNombre.value = '';
